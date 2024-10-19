@@ -22,7 +22,7 @@
   - Storage: `20 GiB`
 
 **Screenshot of Azure MySQL setup:**
-![Azure MySQL Setup](screenshots/Azure_Database.png)
+![image](https://github.com/user-attachments/assets/6f02d7c0-1d31-4ae0-8c83-018b3a10bd17)
 
 ### Step 2: Starting the MySQL Database
 - Started the MySQL instance from the Azure portal and documented the connection details.
@@ -32,7 +32,7 @@
 - Username: `mysqladmin`
   
 **Screenshot of Azure DB Connection Details:**
-![Azure DB Connection Details](screenshots/Azure_DB_Connection_Details.png)
+![image](https://github.com/user-attachments/assets/98d64674-6864-4e3d-a558-0be1cbfd6656)
 
 ---
 
@@ -46,7 +46,7 @@
   - Storage: `SSD , 250 GB`
 
 **Screenshot of GCP MySQL setup:**
-![GCP MySQL Setup](screenshots/GCP_Cloud_Instance.png)
+![image](https://github.com/user-attachments/assets/ae2133ef-9d97-4788-ac26-b4c7c1024dab)
 
 ### Step 2: Starting the Cloud SQL Instance
 - Started the Cloud SQL instance and noted the connection details.
@@ -56,7 +56,7 @@
 - Public IP: `34.121.216.128`
   
 **Screenshot of GCP Cloud Instance Connection Details:**
-![GCP Cloud Instance Connection Details](screenshots/GCP_Cloud_Instance_Connection_Details.png)
+![image](https://github.com/user-attachments/assets/d95a4c6f-da1c-49b0-af69-b41f6c5423bc)
 
 ---
 
@@ -67,7 +67,7 @@
 - Created a dataset called `myquery` in the project `cain-samantha-hha504`.
 
 **Screenshot of BigQuery Dataset Creation:**
-![BigQuery Dataset Creation](screenshots/GCP_BigQuery.png)
+![image](https://github.com/user-attachments/assets/38690b8a-a36e-4e6c-9c50-d716338b7db3)
 
 ### Step 2: Loading Data into BigQuery
 - Uploaded a CSV file to BigQuery and created a table `your_table_name`.
