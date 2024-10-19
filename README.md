@@ -22,7 +22,7 @@
   - Storage: `20 GiB`
 
 **Screenshot of Azure MySQL setup:**
-![Azure MySQL Setup](path_to_screenshot)
+![Azure MySQL Setup](screenshots/Azure Database.png)
 
 ### Step 2: Starting the MySQL Database
 - Started the MySQL instance from the Azure portal and documented the connection details.
@@ -30,6 +30,9 @@
 **Connection Details:**
 - Hostname: `my-sql-db.mysql.database.azure.com`
 - Username: `mysqladmin`
+  
+**Screenshot of Azure DB Connection Details:**
+![Azure DB Connection Details](screenshots/Azure DB Connection Details.png)
 
 ---
 
@@ -43,7 +46,7 @@
   - Storage: `SSD , 250 GB`
 
 **Screenshot of GCP MySQL setup:**
-![GCP MySQL Setup](path_to_screenshot)
+![GCP MySQL Setup](screenshots/GCP Cloud Instance.png)
 
 ### Step 2: Starting the Cloud SQL Instance
 - Started the Cloud SQL instance and noted the connection details.
@@ -51,6 +54,9 @@
 **Connection Details:**
 - Instance connection name: `cain-samantha-hha504:us-central1:my-cloud-sql-instance`
 - Public IP: `34.121.216.128`
+  
+**Screenshot of GCP Cloud Instance Connection Details:**
+![GCP Cloud Instance Connection Details](screenshots/GCP Cloud Instance Connection Details.png)
 
 ---
 
@@ -61,13 +67,13 @@
 - Created a dataset called `myquery` in the project `cain-samantha-hha504`.
 
 **Screenshot of BigQuery Dataset Creation:**
-![BigQuery Dataset Creation](path_to_screenshot)
+![BigQuery Dataset Creation](screenshots/GCP BigQuery.png)
 
 ### Step 2: Loading Data into BigQuery
 - Uploaded a CSV file to BigQuery and created a table `your_table_name`.
 
 **Screenshot of Data Upload:**
-![BigQuery Data Upload](path_to_screenshot)
+![BigQuery Data Upload](path)
 
 ### Step 3: Running a SQL Query in BigQuery
 - Ran the following query to retrieve specific data:
