@@ -64,22 +64,25 @@
 
 ### Step 1: Creating a BigQuery Dataset
 - Navigated to **BigQuery** in the Google Cloud Console.
-- Created a dataset called `myquery` in the project `cain-samantha-hha504`.
+- Created a dataset called `my_dataset` in the project `cain-samantha-hha504`.
 
 **Screenshot of BigQuery Dataset Creation:**
-![image](https://github.com/user-attachments/assets/38690b8a-a36e-4e6c-9c50-d716338b7db3)
+![image](https://github.com/user-attachments/assets/03f3ec3e-ce5d-4e22-bfd1-d54e091a0556)
 
 ### Step 2: Loading Data into BigQuery
-- Uploaded a CSV file to BigQuery and created a table `your_table_name`.
+- Uploaded a CSV file to BigQuery and created a table `my_table`.
 
 **Screenshot of Data Upload:**
-![BigQuery Data Upload](path)
+![image](https://github.com/user-attachments/assets/e3a01b0d-5f3c-410c-876f-0c22ace31e2f)
 
 ### Step 3: Running a SQL Query in BigQuery
 - Ran the following query to retrieve specific data:
   ```sql
-  SELECT * FROM `project_id.dataset_id.table_name`
+  SELECT * FROM `cain-samanta-hha504.my_dateset.my_table`
   LIMIT 100;
+
+**Screenshot of Running Query:**
+![image](https://github.com/user-attachments/assets/288b6d60-0c8a-4d27-8db2-c36eab504921)
 
 ---
 
@@ -99,16 +102,24 @@
 
 ### GCP MySQL Monitoring
 - Monitored Cloud SQL MySQL instance in GCP. Key metrics tracked:
-  - CPU Utilization: value
-  - Memory Utilization: value
-  - Disk I/O: value
-- Screenshot of GCP Monitoring:
+  - Cost: $30.63
+  - CPU Utilization: 8 vCPUs
+  - Memory Utilization: 64 GB
+
+**Screenshots of GCP Monitoring:**
+![image](https://github.com/user-attachments/assets/b318f352-4157-4012-b2ac-0a683e408213)
+![image](https://github.com/user-attachments/assets/020c7c16-7e05-49c7-bb64-d763ae8b2e17)
+
 
 ### BigQuery Monitoring
 - Tracked BigQuery usage for queries and storage:
-  - Query Cost: query_cost
-  - Storage Cost: storage_cost
-- Screenshot of BigQuery Monitoring:
+  - Cost: N/A
+  - Storage Cost: N/A
+  - Bytes processed: 0
+
+**Screenshots of BigQuery Monitoring:**
+![image](https://github.com/user-attachments/assets/87d6c6aa-a78a-4b2b-93e6-77592d7efe30)
+![image](https://github.com/user-attachments/assets/c8413c68-ef58-49a8-a684-e2fe1040aec7)
 
 ---
 
@@ -118,11 +129,11 @@
       - Azure provides a streamlined process for creating a MySQL database, with a clear set of basic configurations.
       - GCP’s Cloud SQL setup requires slightly more attention to instance and zone selection but offers more flexibility in terms of machine types.
   - Monitoring Tools:
-      -Azure offers detailed performance metrics through its portal, especially for CPU and memory usage, and allows easy configuration of alerts.
-      - GCP's monitoring interface for Cloud SQL is comprehensive and integrates well with Stackdriver Monitoring, allowing deeper insights into database performance.
+      - Azure offers detailed performance metrics through its portal, especially for CPU and memory usage, and allows easy configuration of alerts. You also have the option to view multiple metrics at the same time.
+      - GCP's monitoring interface for Cloud SQL is comprehensive and allows for deeper insights into database performance. However, you have to view different metrics one my one.
   - Cost and Billing:
-      - BigQuery provides clear cost breakdowns for query execution and storage. Query cost monitoring was intuitive, with a clear view of bytes processed.
-      - Both platforms offer useful budgeting tools to monitor costs, though GCP’s BigQuery cost is based more on usage of data than on the instance itself.
+      - I was unable to access the BigQuery cost breakdowns for query execution and storage because the Reports section said that costs can take over 24 hours to becom available.
+      - Both Azure and GCP platforms offer useful budgeting tools to monitor costs, though GCP’s BigQuery cost is based more on usage of data than on the instance itself as GCP's costs are significantly higher than Azure's.
   - Ease of Use:
       - Azure’s GUI feels slightly more user-friendly for basic database operations, while GCP offers more advanced customization options and better integration with other cloud services.
   - Final Thoughts:
