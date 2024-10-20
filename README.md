@@ -86,10 +86,14 @@
 ## 4. Monitoring Databases
 ### Azure MySQL Monitoring
 - Used the Azure portal to monitor the MySQL instance. Key metrics tracked:
-  - CPU Usage: value
-  - Memory Usage: value
-  - Query Performance: value
-- Screenshot of Azure Monitoring:
+  - Cost: 
+  - CPU Usage: 
+  - Memory Usage: 
+  - Query Performance: 
+
+- Screenshot of Azure Cost Analysis:
+
+- Screenshot of Azure Metrics:
 
 ### GCP MySQL Monitoring
 - Monitored Cloud SQL MySQL instance in GCP. Key metrics tracked:
