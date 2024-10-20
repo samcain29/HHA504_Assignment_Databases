@@ -86,14 +86,16 @@
 ## 4. Monitoring Databases
 ### Azure MySQL Monitoring
 - Used the Azure portal to monitor the MySQL instance. Key metrics tracked:
-  - Cost: 
-  - CPU Usage: 
-  - Memory Usage: 
-  - Query Performance: 
+  - Cost: $0.37
+  - CPU Usage: 0
+  - Memory Usage: 21.7000%
+  - Query Performance (Sum): 66.12k
 
 - Screenshot of Azure Cost Analysis:
+![image](https://github.com/user-attachments/assets/a6f56dc8-0972-464a-a8c2-aa1a7ed5c98d)
 
 - Screenshot of Azure Metrics:
+![image](https://github.com/user-attachments/assets/8ed0ae85-d9dc-4afc-b653-ac2188f73c48)
 
 ### GCP MySQL Monitoring
 - Monitored Cloud SQL MySQL instance in GCP. Key metrics tracked:
